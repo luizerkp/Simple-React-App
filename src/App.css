@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,7 +9,7 @@
   }
 }
 
-.App-header {
+.App{
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,8 +18,38 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  text-align: center;
 }
 
+.task-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  gap: 10px;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: #61dafb;
+  color: #282c34;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  font-size: 1.2rem;
+}
 .App-link {
   color: #61dafb;
 }
