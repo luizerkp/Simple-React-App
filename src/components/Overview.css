@@ -1,3 +1,7 @@
+p {
+  margin: 0;
+}
+
 .Overview {
   display: flex;
   flex-direction: column;
@@ -23,6 +27,7 @@
 }
 
 .tasks-list {
+  list-style: none;
   margin: .25rem;
   text-align: left;
   width: 40vw;
@@ -30,9 +35,14 @@
 }
 
 .task-item {
-  display: flex;
-  justify-content: space-between;
   padding: .25em;
+}
+
+.task-div, .edit-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
 }
 
 .delete-task-text-decoration {
@@ -52,15 +62,30 @@
   color: #61dafb;
 }
 
+.re-submit-btn {
+  cursor: pointer;
+}
+
+.re-submit-btn:hover {
+  color: #0ea823;
+}
+
+.cancel-btn {
+  cursor: pointer;
+}
+
+.cancel-btn:hover {
+  color: #e20c0c;
+}
+
 .actions-div {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1em;
+  gap: .5em;
 }
 
 .edit-task-input {
-  display: none;
   width: 100%;
   height: 30px;
   border-radius: 5px;
@@ -69,6 +94,6 @@
   font-size: 1.2rem;
 }
 
-.active {
-  display: inline;
-}
+.inactive {
+  display: none;
+} 
