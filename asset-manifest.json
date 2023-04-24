@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-task-app/static/css/main.0de405be.css",
+    "main.js": "/react-task-app/static/js/main.7aa6017c.js",
+    "static/media/material-icons.woff": "/react-task-app/static/media/material-icons.4d73cb90e394b34b7670.woff",
+    "static/media/material-icons.woff2": "/react-task-app/static/media/material-icons.0c35d18bf06992036b69.woff2",
+    "index.html": "/react-task-app/index.html",
+    "main.0de405be.css.map": "/react-task-app/static/css/main.0de405be.css.map",
+    "main.7aa6017c.js.map": "/react-task-app/static/js/main.7aa6017c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0de405be.css",
+    "static/js/main.7aa6017c.js"
+  ]
+}
