@@ -1,3 +1,8 @@
+# Simple React Task App
+This is a simple task app created using Create React App. My goal with this app was to becoem familiar with Create React App and working with and edbgugging React components. The App has not data permanence once reloaded all data is loss and has very minimalist UI.
+
+----------------------------------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
